@@ -2,3 +2,8 @@
 frase = 'Python es Tremendo'
 print(list(filter(lambda x: x in 'aeiou', frase)))
 print([x for x in frase if x in 'aeiou'])
+
+# clear
+import os
+clear = lambda: os.system('cls')
+clear()
