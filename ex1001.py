@@ -41,3 +41,13 @@ frase2 = 'El año actual es 2021'
 
 digitos = list(map(lambda n: int(n), list(filter(lambda n: n in '0123456789', frase2))))
 print(digitos)
+
+# test commit
+import matplotlib.pyplot as plt
+import numpy as np
+
+weeks = np.array(['w1', 'w2', 'w3', 'w4', 'w5'])
+hours = np.array([11.4, 10.6, 13.3, 9.2, 14.2])
+
+plt.plot(weeks, hours)
+plt.show()
